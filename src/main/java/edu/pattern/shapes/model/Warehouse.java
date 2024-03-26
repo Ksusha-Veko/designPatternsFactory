@@ -5,7 +5,7 @@ import java.util.StringJoiner;
 
 public class Warehouse {
     private static Warehouse instance = new Warehouse();
-    private HashMap<Integer, Double> map = new HashMap<>();
+    private HashMap<Integer, Double[]> map = new HashMap<>();
 
     private Warehouse() {
     }
@@ -14,12 +14,12 @@ public class Warehouse {
         return instance;
     }
 
-    public Double get(Integer key) {
+    public Double[] get(Integer key) {
         return map.get(key);
     }
 
-    public Double put(Integer key, Double value) {
-        return map.put(key, value);
+    public Double[] put(Integer key, Double[] values) {
+        return map.put(key, values);
     }
 
     @Override
