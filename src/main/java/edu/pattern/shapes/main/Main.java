@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Main {
 
-    public static final Logger logger = LogManager.getLogger(ConeFactoryImpl.class.getName());
+    private static final Logger logger = LogManager.getLogger(ConeFactoryImpl.class.getName());
     public static void main(String[] args) throws IncorrectConeDataException {
         logger.info("Hello!");
 

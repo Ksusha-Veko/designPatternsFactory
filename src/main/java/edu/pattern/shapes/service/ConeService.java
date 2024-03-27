@@ -31,6 +31,6 @@ public class ConeService {
 
         Coordinate vectorOL = CoordinateService.findVector(cone.getO(), cone.getL());
         double radius = CoordinateService.findVectorModule(vectorOL);
-        return ((double) Math.pow(radius,2) * height * 1/3 * (double)Math.PI);
+        return (Math.pow(radius,2) * height * 1/3 * Math.PI);
     }
 }

@@ -1,6 +1,5 @@
 package edu.pattern.shapes.model;
 
-import edu.pattern.shapes.exception.IncorrectConeDataException;
 import edu.pattern.shapes.service.CoordinateService;
 
 public enum ConeState {

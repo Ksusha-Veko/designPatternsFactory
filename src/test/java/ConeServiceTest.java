@@ -11,7 +11,7 @@ public class ConeServiceTest {
     ConeFactory factory = new ConeFactoryImpl();
     ConeService coneService = new ConeService();
 
-    private double[][] validCoordinates = {
+    private final double[][] validCoordinates = {
             {0, 0, 3},
             {0, 0, 0},
             {0, 4, 0},

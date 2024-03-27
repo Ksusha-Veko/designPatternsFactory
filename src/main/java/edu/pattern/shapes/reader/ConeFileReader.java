@@ -1,8 +1,6 @@
 package edu.pattern.shapes.reader;
 
-import edu.pattern.shapes.exception.IncorrectCoordinateInputException;
 import edu.pattern.shapes.model.Coordinate;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -12,13 +10,12 @@ import java.util.stream.Stream;
 import java.util.logging.Logger;
 import java.util.logging.LogManager;
 
-
 public class ConeFileReader {
 
-    public static final int NUMBER_OF_COORDINATES = 3;
-    public static final String DELIMETER_LINE = "; ";
-    public static final String DELIMETER_ROW = ",";
-    public static final Logger logger = LogManager.getLogManager().getLogger("ConeFileReader.class.getName()");
+    private static final int NUMBER_OF_COORDINATES = 3;
+    private static final String DELIMITER_LINES = "; ";
+    private static final String DELIMITER_ROW = ",";
+    private static final Logger logger = LogManager.getLogManager().getLogger("ConeFileReader.class.getName()");
 
 
 
@@ -26,11 +23,11 @@ public class ConeFileReader {
         ArrayList<Coordinate[]> parsedCoordinates = new ArrayList<>();
             try (Stream<String> lines = Files.lines(Paths.get(ConeFileReader.class.getResource(filePath).toURI()))) {
                 lines.forEach(line -> {
-                    String[] stringCoordinates = line.split(";");
+                    String[] stringCoordinates = line.split(DELIMITER_LINES);
                     if (stringCoordinates.length == NUMBER_OF_COORDINATES) {
                         Coordinate[] coordinates = new Coordinate[NUMBER_OF_COORDINATES];
                         for (int j = 0; j < NUMBER_OF_COORDINATES; j++) {
-                            String[] xyz = stringCoordinates[j].split(",");
+                            String[] xyz = stringCoordinates[j].split(DELIMITER_ROW);
                             if (xyz.length == 3) {
                                 try {
                                     double x = Double.parseDouble(xyz[0]);
@@ -45,11 +42,7 @@ public class ConeFileReader {
                         parsedCoordinates.add(coordinates);
                     }
                 });
-            } catch (IncorrectCoordinateInputException e) {
-                logger.info("cannot parse coordinates");
-            } catch (URISyntaxException e) {
-                logger.info("cannot parse coordinates");
-            } catch (IOException e) {
+            } catch (IOException | URISyntaxException e) {
                 logger.info("cannot parse coordinates");
             }
         return parsedCoordinates;

@@ -2,7 +2,6 @@ package edu.pattern.shapes.creator.impl;
 
 import edu.pattern.shapes.creator.CoordinateFactory;
 import edu.pattern.shapes.model.Coordinate;
-
 import java.util.ArrayList;
 import java.util.List;
 

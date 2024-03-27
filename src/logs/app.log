@@ -1,0 +1,57 @@
+1989 [INFO ] [main] Cone - created a Cone with coneId: 7, h = Coordinate{coordinateId=1, x=0.0, y=0.0, z=0.0}, o = Coordinate{coordinateId=2, x=1.0, y=1.0, z=1.0}, l = Coordinate{coordinateId=3, x=2.0, y=2.0, z=2.0}
+2017 [WARN ] [main] Cone - set state to INVALID
+2018 [INFO ] [main] Cone - created a Cone with coneId: 20, h = Coordinate{coordinateId=4, x=3.0, y=3.0, z=3.0}, o = Coordinate{coordinateId=5, x=4.0, y=4.0, z=4.0}, l = Coordinate{coordinateId=6, x=5.0, y=5.0, z=5.0}
+2018 [WARN ] [main] Cone - set state to INVALID
+2024 [INFO ] [main] ConeFactoryImpl - created list of cones by coordinates: [Cone{coneId=7, h=Coordinate{coordinateId=1, x=0.0, y=0.0, z=0.0}, o=Coordinate{coordinateId=2, x=1.0, y=1.0, z=1.0}, l=Coordinate{coordinateId=3, x=2.0, y=2.0, z=2.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@5669c5fb}
+, Cone{coneId=20, h=Coordinate{coordinateId=4, x=3.0, y=3.0, z=3.0}, o=Coordinate{coordinateId=5, x=4.0, y=4.0, z=4.0}, l=Coordinate{coordinateId=6, x=5.0, y=5.0, z=5.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@241e8ea6}
+]
+2060 [INFO ] [main] Cone - created a Cone with coneId: 57, h = Coordinate{coordinateId=33, x=0.0, y=0.0, z=5.0}, o = Coordinate{coordinateId=34, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=35, x=3.0, y=0.0, z=0.0}
+2060 [WARN ] [main] Cone - set state to VALID
+2060 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2060 [INFO ] [main] Cone - created a Cone with coneId: 75, h = Coordinate{coordinateId=36, x=0.0, y=6.7, z=5.0}, o = Coordinate{coordinateId=37, x=0.0, y=6.7, z=0.0}, l = Coordinate{coordinateId=38, x=0.0, y=0.0, z=0.0}
+2060 [WARN ] [main] Cone - set state to VALID
+2060 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2060 [INFO ] [main] Cone - created a Cone with coneId: 93, h = Coordinate{coordinateId=39, x=0.0, y=1.0, z=5.0}, o = Coordinate{coordinateId=40, x=0.0, y=1.0, z=4.0}, l = Coordinate{coordinateId=41, x=0.0, y=0.0, z=4.0}
+2061 [WARN ] [main] Cone - set state to VALID
+2061 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2061 [INFO ] [main] Cone - created a Cone with coneId: 111, h = Coordinate{coordinateId=42, x=0.0, y=1.0, z=5.0}, o = Coordinate{coordinateId=43, x=0.0, y=1.0, z=4.0}, l = Coordinate{coordinateId=44, x=0.0, y=0.0, z=4.0}
+2061 [WARN ] [main] Cone - set state to VALID
+2061 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2061 [INFO ] [main] Cone - created a Cone with coneId: 129, h = Coordinate{coordinateId=45, x=0.0, y=0.0, z=5.0}, o = Coordinate{coordinateId=46, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=47, x=3.0, y=0.0, z=0.0}
+2061 [WARN ] [main] Cone - set state to VALID
+2061 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2061 [INFO ] [main] Cone - created a Cone with coneId: 147, h = Coordinate{coordinateId=48, x=0.0, y=6.7, z=5.0}, o = Coordinate{coordinateId=49, x=0.0, y=6.7, z=0.0}, l = Coordinate{coordinateId=50, x=0.0, y=0.0, z=0.0}
+2062 [WARN ] [main] Cone - set state to VALID
+2062 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2062 [INFO ] [main] Cone - created a Cone with coneId: 165, h = Coordinate{coordinateId=51, x=0.0, y=1.0, z=5.0}, o = Coordinate{coordinateId=52, x=0.0, y=1.0, z=4.0}, l = Coordinate{coordinateId=53, x=0.0, y=0.0, z=4.0}
+2062 [WARN ] [main] Cone - set state to VALID
+2062 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2062 [INFO ] [main] Cone - created a Cone with coneId: 183, h = Coordinate{coordinateId=54, x=0.0, y=1.0, z=5.0}, o = Coordinate{coordinateId=55, x=0.0, y=1.0, z=4.0}, l = Coordinate{coordinateId=56, x=0.0, y=0.0, z=4.0}
+2062 [WARN ] [main] Cone - set state to VALID
+2062 [INFO ] [main] ConeFactoryImpl - created a cone by coordinates
+2065 [INFO ] [main] Cone - created a Cone with coneId: 204, h = Coordinate{coordinateId=201, x=0.0, y=0.0, z=10.0}, o = Coordinate{coordinateId=202, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=203, x=5.0, y=0.0, z=0.0}
+2065 [WARN ] [main] Cone - set state to VALID
+2065 [INFO ] [main] ConeFactoryImpl - created a cone by height and radius
+2068 [INFO ] [main] Cone - created a Cone with coneId: 223, h = Coordinate{coordinateId=220, x=0.0, y=0.0, z=3.0}, o = Coordinate{coordinateId=221, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=222, x=0.0, y=4.0, z=0.0}
+2069 [WARN ] [main] Cone - set state to VALID
+2069 [INFO ] [main] ConeFactoryImpl - created a cone by doubles
+2069 [INFO ] [main] Cone - created a Cone with coneId: 241, h = Coordinate{coordinateId=238, x=0.0, y=0.0, z=3.0}, o = Coordinate{coordinateId=239, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=240, x=0.0, y=4.0, z=0.0}
+2071 [INFO ] [main] Cone - created a Cone with coneId: 245, h = Coordinate{coordinateId=242, x=0.0, y=0.0, z=0.0}, o = Coordinate{coordinateId=243, x=1.0, y=1.0, z=1.0}, l = Coordinate{coordinateId=244, x=2.0, y=2.0, z=2.0}
+2072 [WARN ] [main] Cone - set state to INVALID
+2072 [INFO ] [main] Cone - created a Cone with coneId: 261, h = Coordinate{coordinateId=258, x=3.0, y=3.0, z=3.0}, o = Coordinate{coordinateId=259, x=4.0, y=4.0, z=4.0}, l = Coordinate{coordinateId=260, x=5.0, y=5.0, z=5.0}
+2072 [WARN ] [main] Cone - set state to INVALID
+2073 [INFO ] [main] Cone - created a Cone with coneId: 277, h = Coordinate{coordinateId=274, x=3.0, y=3.0, z=3.0}, o = Coordinate{coordinateId=275, x=4.0, y=4.0, z=4.0}, l = Coordinate{coordinateId=276, x=5.0, y=5.0, z=5.0}
+2073 [WARN ] [main] Cone - set state to INVALID
+2073 [INFO ] [main] Cone - created a Cone with coneId: 293, h = Coordinate{coordinateId=290, x=3.0, y=0.0, z=0.0}, o = Coordinate{coordinateId=291, x=4.0, y=0.0, z=4.0}, l = Coordinate{coordinateId=292, x=5.0, y=6.0, z=7.0}
+2073 [WARN ] [main] Cone - set state to INVALID
+2074 [INFO ] [main] ConeFactoryImpl - created list of cones by doubles: [Cone{coneId=245, h=Coordinate{coordinateId=242, x=0.0, y=0.0, z=0.0}, o=Coordinate{coordinateId=243, x=1.0, y=1.0, z=1.0}, l=Coordinate{coordinateId=244, x=2.0, y=2.0, z=2.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@158a3b2e}
+, Cone{coneId=261, h=Coordinate{coordinateId=258, x=3.0, y=3.0, z=3.0}, o=Coordinate{coordinateId=259, x=4.0, y=4.0, z=4.0}, l=Coordinate{coordinateId=260, x=5.0, y=5.0, z=5.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@25a6944c}
+, Cone{coneId=277, h=Coordinate{coordinateId=274, x=3.0, y=3.0, z=3.0}, o=Coordinate{coordinateId=275, x=4.0, y=4.0, z=4.0}, l=Coordinate{coordinateId=276, x=5.0, y=5.0, z=5.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@5e1fa5b1}
+, Cone{coneId=293, h=Coordinate{coordinateId=290, x=3.0, y=0.0, z=0.0}, o=Coordinate{coordinateId=291, x=4.0, y=0.0, z=4.0}, l=Coordinate{coordinateId=292, x=5.0, y=6.0, z=7.0}, state=INVALID, observer=edu.pattern.shapes.observer.impl.ConeObserverImpl@6b00f608}
+]
+2077 [INFO ] [main] Cone - created a Cone with coneId: 309, h = Coordinate{coordinateId=306, x=0.0, y=0.0, z=3.0}, o = Coordinate{coordinateId=307, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=308, x=0.0, y=4.0, z=0.0}
+2077 [WARN ] [main] Cone - set state to VALID
+2077 [INFO ] [main] ConeFactoryImpl - created a cone by doubles
+2080 [INFO ] [main] Cone - created a Cone with coneId: 328, h = Coordinate{coordinateId=325, x=0.0, y=0.0, z=10.0}, o = Coordinate{coordinateId=326, x=0.0, y=0.0, z=0.0}, l = Coordinate{coordinateId=327, x=5.0, y=0.0, z=0.0}
+2080 [WARN ] [main] Cone - set state to VALID
+2080 [INFO ] [main] ConeFactoryImpl - created a cone by coordinateH and radius

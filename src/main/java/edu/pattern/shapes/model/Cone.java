@@ -1,6 +1,5 @@
 package edu.pattern.shapes.model;
 
-import edu.pattern.shapes.exception.IncorrectConeDataException;
 import edu.pattern.shapes.exception.IncorrectCoordinateInputException;
 import edu.pattern.shapes.observer.ConeObserver;
 import edu.pattern.shapes.observer.Observable;
@@ -8,14 +7,11 @@ import edu.pattern.shapes.observer.impl.ConeObserverImpl;
 import edu.pattern.shapes.util.IdGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.Objects;
 
 
-
-
 public class Cone implements Observable {
-    public static final Logger logger = LogManager.getLogger(Cone.class.getName());
+    private static final Logger logger = LogManager.getLogger(Cone.class.getName());
     private int coneId;
     private Coordinate h;
     private Coordinate o;
@@ -75,7 +71,7 @@ public class Cone implements Observable {
         return l;
     }
 
-    public void setL(Coordinate l) throws IncorrectConeDataException {
+    public void setL(Coordinate l)  {
         this.l = l;
         notifyObservers();
         logger.info("set L to " + l);

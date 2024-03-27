@@ -8,13 +8,12 @@ import edu.pattern.shapes.model.Coordinate;
 import edu.pattern.shapes.reader.ConeFileReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class ConeFactoryImpl implements ConeFactory {
-    public static final Logger logger = LogManager.getLogger(ConeFactoryImpl.class.getName());
+    private static final Logger logger = LogManager.getLogger(ConeFactoryImpl.class.getName());
     public Cone createConeByCoordinates(Coordinate[] coordinate)  {
             Cone cone = new Cone(coordinate[0], coordinate[1], coordinate[2]);
             ConeState currentState = ConeState.detectConeState(cone);
