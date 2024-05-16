@@ -1,5 +1,4 @@
 package edu.pattern.shapes.reader;
-
 import edu.pattern.shapes.model.Coordinate;
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -11,13 +10,10 @@ import java.util.logging.Logger;
 import java.util.logging.LogManager;
 
 public class ConeFileReader {
-
     private static final int NUMBER_OF_COORDINATES = 3;
     private static final String DELIMITER_LINES = "; ";
     private static final String DELIMITER_ROW = ",";
     private static final Logger logger = LogManager.getLogManager().getLogger("ConeFileReader.class.getName()");
-
-
 
     public static ArrayList<Coordinate[]> parseCoordinates(String filePath) {
         ArrayList<Coordinate[]> parsedCoordinates = new ArrayList<>();
