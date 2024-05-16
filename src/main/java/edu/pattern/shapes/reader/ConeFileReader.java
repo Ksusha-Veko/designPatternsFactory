@@ -35,7 +35,7 @@ public class ConeFileReader {
                                     double z = Double.parseDouble(xyz[2]);
                                     coordinates[j] = new Coordinate(x, y, z);
                                 } catch (NumberFormatException e) {
-                                    logger.info("cannot parse coordinates");
+                                    logger.error("cannot parse coordinates");
                                 }
                             }
                         }
@@ -43,7 +43,7 @@ public class ConeFileReader {
                     }
                 });
             } catch (IOException | URISyntaxException e) {
-                logger.info("cannot parse coordinates");
+                logger.error("cannot parse coordinates");
             }
         return parsedCoordinates;
     }
